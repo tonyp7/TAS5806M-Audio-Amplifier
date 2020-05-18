@@ -17,6 +17,6 @@ Hardware and software is free and open source, published under the MIT license.
 
 # Compatibility with TAS5805M
 
-Both amplifiers are extremely similar. They share the same I2C interface and registers and as such the code included in this repository should be able to control a similar TAS5805M audio amplifier.
+Both amplifiers are the same but in different packages allowing for different maximum power output. They share the same I2C interface and registers and as such the code included in this repository is compatible with TAS5805M audio amplifier. [See here the comment from TI on this topic](http://e2e.ti.com/support/audio/f/6/t/812496?TAS5805M-comparing-to-TAS5806M).
 
 ![Amplifier board top](https://github.com/tonyp7/TAS5806M-Audio-Amplifier/raw/master/pictures/tas5806m-amplifier-pic2-top.jpg)
